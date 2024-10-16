@@ -16,12 +16,6 @@ The Movie Search and Review Application is a single-page web application that al
 - Fetch API
 - jsonsilo.com API
 
-## Getting Started
-
-### Prerequisites
-- A modern web browser (e.g., Chrome, Firefox)
-- Internet connection to access the jsonsilo.com API
-
 ### Installation
 1. Clone the repository:
    ```bash
