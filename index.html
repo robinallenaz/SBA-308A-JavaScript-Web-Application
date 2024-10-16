@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Movie Search and Review</title> <!-- Added a title -->
+    <link rel="stylesheet" href="style.css">
+    <script defer src="api.js"></script>
+    <script defer src="ui.js"></script>
+    <script defer src="app.js"></script>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Movie Search and Review</h1>
+        
+        <!-- Search Section -->
+        <div class="search-section">
+            <input type="text" id="search-input" placeholder="Search for a movie..." />
+            <button id="search-button">Search</button>
+        </div>
+
+        <!-- Movie List -->
+        <div id="movie-list" class="movie-list">
+            <h2>Search Results:</h2>
+            <div id="movies-container"></div> <!-- Container for movie items -->
+        </div>
+
+        <!-- Movie Details -->
+        <div id="movie-details" class="movie-details">
+            <h2>Movie Details</h2>
+            <div id="movie-info"></div> <!-- Container for movie details -->
+        </div>
+
+        <!-- Review Form -->
+        <div class="review-section">
+            <h2>Submit a Review</h2>
+            <form id="review-form">
+                <textarea id="review-input" placeholder="Write your review here..." required></textarea>
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
